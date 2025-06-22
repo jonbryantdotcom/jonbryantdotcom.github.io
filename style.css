@@ -103,16 +103,19 @@ X. SUBSCRIBE AREA
 \*------------------------------------*/
 html,
 body {
+	user-select: none !important;
     height: 100%;
 }
 
 body {
     background: #f9f9f9;
     font-family: 'Raleway', sans-serif;
+	user-select: none !important;
 }
 
 p:last-child {
     margin-bottom: 0;
+	user-select: none !important;
 }
 
 .wrapper {
@@ -615,6 +618,7 @@ body.scrolled .header--navbar {
 .banner--content {
     color: #303030;
     text-align: center;
+	margin-bottom:50px;
 }
 
 .banner--content h2 {
